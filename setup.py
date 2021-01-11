@@ -34,7 +34,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/ai4energy/gensbo.git",
-    keywords=['optimization', 'simulation', 'pso', 'tool']
+    keywords=['optimization', 'simulation', 'pso', 'tool'],
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
