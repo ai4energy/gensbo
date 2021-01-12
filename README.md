@@ -56,18 +56,18 @@ python setup.py install
 #		feasible_x:可行解集合（二维数组）
 # 	name_so.png：寻优历史图
 # 多目标优化（mo）：
-# 	name_so.npy：以np.array格式保存多目标优化（mo）结果:[result,result_name]
+# 	name_mo.npy：以np.array格式保存多目标优化（mo）结果:[result,result_name]
 #		result:[f_pareto, x_pareto, feasible_f, feasible_x]
 #			f_pareto：寻优结果非支配解集（pareto前沿）的目标函数值集合（二维数组）,        
 #			x_pareto：寻优结果非支配解向量（二维数组）
 #			feasible_f:可行解的函数值集合（二维数组）
 #			feasible_x:可行解集合（二维数组）
-# 	name_view_so.xls：以xls格式保存多目标优化（mo）结果
+# 	name_view_mo.xls：以xls格式保存多目标优化（mo）结果
 #		pareto_f1,pareto_f2 ...：寻优结果帕累托最优前沿目标函数值
 #		x1,x2 ...：寻优结果解向量
 #		feasible_f:可行解的函数值集合（二维数组）
 #		feasible_x:可行解集合（二维数组）
-# 	name_so.png：寻优结果帕累托最优前沿目标函数值(f1-x轴；f2-y轴;f3-z轴)（只支持2D/3D）
+# 	name_mo.png：寻优结果帕累托最优前沿目标函数值(f1-x轴；f2-y轴;f3-z轴)（只支持2D/3D）
 ```
 
 
@@ -361,3 +361,6 @@ def problem_function(varset,if_cal_cons_only=False):
 - 世代距离（GD）：$2.06 \times 10^{-3}$
 
   ![image-20210112170903075](README.assets/image-20210112170903075.png)
+
+
+
