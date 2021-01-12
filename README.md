@@ -354,13 +354,13 @@ def problem_function(varset,if_cal_cons_only=False):
 
 - 世代距离（GD）：$9.29 \times 10^{-4}$
 
-  ![ZDT-1帕累托前沿](/README.assets/image-20210112170739174.png)
+  ![ZDT-1帕累托前沿](README.assets/image-20210112170739174.png)
 
 ### Viennet3 function（目标函数：3）
 
 - 世代距离（GD）：$2.06 \times 10^{-3}$
 
-  ![Viennet3帕累托前沿](./README.assets/image-20210112170903075.png)
+  ![Viennet3帕累托前沿](README.assets/image-20210112170903075.png)
 
 
 
