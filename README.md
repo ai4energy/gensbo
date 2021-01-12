@@ -354,13 +354,13 @@ def problem_function(varset,if_cal_cons_only=False):
 
 - 世代距离（GD）：$9.29 \times 10^{-4}$
 
-  ![image-20210112170739174](https://github.com/ai4energy/gensbo/blob/main/README.assets/image-20210112170739174.png)
+  ![login](https://github.com/ai4energy/gensbo/blob/main/README.assets/image-20210112170739174.png)
 
 ### Viennet3 function（目标函数：3）
 
 - 世代距离（GD）：$2.06 \times 10^{-3}$
 
-  ![image-20210112170903075](../README.assets/image-20210112170903075.png)
+  ![login](../README.assets/image-20210112170903075.png)
 
 
 
